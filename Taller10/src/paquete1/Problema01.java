@@ -29,10 +29,10 @@ public class Problema01 {
                 suma = suma + notas[fila][col];
 
             }
-            valor = suma/4;
+            valor = suma / 4;
             promedios[fila] = valor;
         }
-        for(fila = 0; fila < 3;fila++){
+        for (fila = 0; fila < 3; fila++) {
             System.out.printf("Estudiante %s tiene un promedio de %.2f\n", estudiantes[fila], promedios[fila]);
         }
     }
