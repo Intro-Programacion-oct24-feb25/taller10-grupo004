@@ -43,7 +43,7 @@ public class Problema04 {
                         datos[fila][col]);
             }
         }
-        System.out.printf("veces que se agregó un valor fuera de rango: %d",
+        System.out.printf("veces que se agregó un valor fuera de rango: %d\n",
                 contador);
     }
 }
