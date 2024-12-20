@@ -17,18 +17,18 @@ public class Problema07 {
          */
         double suma = 0;
 
-        for (int i = 0; i < dato1.length; i++) {
-            for (int j = 0; j < dato1[i].length; j++) {
-                suma = suma + dato1[i][j];
+        for (int fila = 0; fila < dato1.length; fila++) {
+            for (int col = 0; col < dato1[fila].length; col++) {
+                suma = suma + dato1[fila][col];
             }
 
         }
 
         if (suma == 0) {
-            System.out.printf("El arreglo es NULO\n");
+            System.out.printf("El arreglo es ´´NULO´´\n");
 
         } else {
-            System.out.printf("El arreglo no es NULO\n");
+            System.out.printf("El arreglo no es nulo\n");
         }
     }
 }
